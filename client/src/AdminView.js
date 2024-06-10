@@ -13,7 +13,7 @@ const AdminView = () => {
     try {
       setLoading(true);
       const request = await axios.get(
-        "http://localhost:8081/api/v1/tasks/getById/" + id,
+        "https://reactproject-3ld6.onrender.com/api/v1/tasks/getById/" + id,
         {
           headers: {
             Authorization: `Bearer ${token}`,

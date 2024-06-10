@@ -15,7 +15,8 @@ const Home = () => {
     try {
       setLoading(true);
       const request = await axios.get(
-        "http://localhost:8081/api/v1/tasks/getByName/" + token,
+        "https://reactproject-3ld6.onrender.com/api/v1/tasks/getByName/" +
+          token,
         {
           headers: {
             Authorization: `Bearer ${token}`,
