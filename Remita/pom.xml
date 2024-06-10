@@ -14,7 +14,7 @@
 	<name>demo</name>
 	<description>A task report system that allows admin give a detailed description of the tasks performed monthly</description>
 	<properties>
-		<java.version>22</java.version>
+		<java.version>19</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
