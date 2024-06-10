@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  max-width: 700px;
+  margin: 0 auto;
+  border-bottom: 2px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #F28C28;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #F28C28;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.blog-preview {
+  padding: 10px 16px;
+   margin: 20px 0; 
+  border-bottom: 1px solid #fafafa;
+}
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.blog-preview h2 {
+  font-size: 20px;
+  color: #F28C28;
+  margin-bottom: 8px;
+}
+.blog-preview a {
+ text-decoration: none;
+}
+/* create new blog form */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+  font-weight: 900;
+
+}
+.create h2 {
+  font-size: 20px;
+  color: #F28C28;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 15px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #F28C28;
+  color: #fff;
+  border: 0;
+  padding: 11px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+ .container{
+  max-width: 300px;
+  margin: auto;
+  display: block;
+  padding:40px;
+  text-align: center;
+  border-bottom:2px solid #ddd;
+  border-radius:8px;
+  align-items: center;
+
+}
+.container label {
+  text-align: left;
+  display: block;
+  font-weight: 900;
+  color: #F28C28;
+
+
+}
+.container input{
+  width: 100%;
+  padding: 10px 20px;
+  margin: 20px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.container h2 {
+  font-size: 30px;
+  color: #F28C28;
+  margin-bottom: 30px;
+} 
+.container button {
+  background: #F28C28;
+  color: #fff;
+  border: 0;
+  font-weight:900;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.container button:hover {
+  background: #F28C28;
+  padding:13px;
+}
+.container button a{
+  text-decoration: none;
+}
+article{
+  margin:50px;
+  padding:20px;
+  border-bottom: 5px solid #f2f2f2;
+  height:400px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  
+}
+th{
+  color:#F28C28;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.table-view{
+  margin-top:25px;
+}

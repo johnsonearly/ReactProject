@@ -1,0 +1,369 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+  border-bottom: 2px solid #f2f2f2;
+}
+.navbar h1 {
+ color: #000080;
+}
+.navbar .links {
+  margin-left: auto;
+   
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  color: #000080;
+  font-weight: 600;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0px auto;
+  padding: 30px;
+}
+.blog-preview {
+  padding: 20px 20px;
+  margin: 20px 0;
+  max-width: 200px;
+  border-bottom: 1px solid #fafafa;
+  max-height: fit-content;
+ 
+
+  position: relative;
+}
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.blog-preview h2 {
+  font-size: 20px;
+ color: #000080;
+  margin-bottom: 8px;
+}
+.blog {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.blog-preview a {
+  text-decoration: none;
+}
+/* create new blog form */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+  font-weight: 900;
+}
+.create h2 {
+  font-size: 20px;
+ color: #000080;
+  margin-bottom: 30px;
+}
+.create input,
+.create textarea,
+.create select {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 15px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.create button {
+  font-size: 15px;
+ color: #000080;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.create button:hover {
+  background: #000080;
+  color:white;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.create label {
+ color: #000080;
+}
+
+.container {
+  max-width: 300px;
+  margin: auto;
+  display: block;
+  padding: 40px;
+  text-align: center;
+  border-bottom: 2px solid #ddd;
+  border-radius: 8px;
+  align-items: center;
+}
+.container label {
+  text-align: left;
+  display: block;
+  font-weight: 900;
+  color: #000080;
+}
+.container input {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 20px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.container h2 {
+  font-size: 30px;
+ color: #000080;
+
+  margin-bottom: 30px;
+}
+.container button {
+ background-color: #000080;
+
+  color: #fff;
+  border: 0;
+  font-weight: 900;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.container button:hover {
+  background-color:  #000080;
+  
+
+  padding: 13px;
+}
+.container button a {
+  text-decoration: none;
+}
+article {
+  margin: 50px;
+  padding: 20px;
+  border-bottom: 5px solid #f2f2f2;
+  height: fit-content;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 10px;
+}
+
+td,
+th {
+  text-align: left;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+  font-weight: 700;
+}
+td {
+  max-width: 300px;
+  overflow: hidden;
+  text-overflow: clip;
+  text-wrap: nowrap;
+}
+th {
+ color: #000080;
+}
+tr:hover {
+  background-color: #ddd;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.table-view {
+  margin-top: 25px;
+  max-width: 100%;
+  overflow-x: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+@media only screen and (max-width: 768px) {
+  th,
+  td {
+    padding: 6px;
+  }
+}
+.export_button {
+ background-color: #000080;
+  color: white;
+  border: 0;
+  font-weight: 900;
+  padding: 8px;
+  border-radius: 18px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+.export_button a {
+  text-decoration: none;
+  color: white;
+}
+
+.export_button:hover{
+
+  background: #000080;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.deployed-status {
+  color: green;
+}
+.blocker-status {
+  color: red;
+}
+.in_progress {
+  color: blue;
+}
+.qa_testing {
+  color: yellow;
+}
+.ready_for_deployment {
+  color: purple;
+}
+.hide-user {
+  visibility: hidden;
+}
+.view-table {
+ background-color: #000080;
+
+  border: 0;
+  font-weight: 900;
+  padding: 8px;
+  border-radius: 18px;
+  cursor: pointer;
+  transition: 3s;
+  margin-top: 10px;
+  margin-left: 140px;
+  margin-bottom: 10px;
+}
+.update-button {
+ color: #000080;
+  text-align: left;
+  cursor: pointer;
+}
+.update-button a {
+ color: #000080;
+  text-align: left;
+  cursor: pointer;
+  text-decoration: none;
+ 
+}
+.backToDashboard{
+  color: #000080;
+  text-align: center;
+  cursor: pointer;
+
+}
+.backToDashboard a {
+   color: #000080;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+
+}
+.backToDashboard :hover {
+
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+
+}
+
+/*  */
+.view-table a {
+  text-decoration: none;
+  color: white;
+}
+.view-table:hover {
+  background: #000080;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hide-buttons {
+  display: none;
+}
+.filter-button {
+ 
+  border-radius: 18px;
+  cursor: pointer;
+  transition: 2s;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.filter-button:hover{
+background: #000080;
+color:white;
+}
+.filter-option {
+  margin-left: 20px;
+}
+.header-table {
+  margin-top: 40px;
+}
+
+.status-row {
+  font-weight: 900;
+}
+.blog-text {
+  text-wrap: wrap;
+  
+}
+.links {
+ color: #000080;
+}
+input,
+textarea,
+select {
+  border-radius: 5px;
+
+}
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.pagination a[data-active="true"] {
+  background-color: #000080;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+.filter-section{
+  display:inline-flex;
+  position: relative;
+  margin:auto
+}
+.filter-section label{
+  margin-left:20px;
+  margin-right: 10px;
+}
